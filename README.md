@@ -35,3 +35,9 @@ Then install extensions: ESLint, Prettier ESLint, Prettier-Code format
 ```bash
 npm i eslint-plugin-import --save-dev --legacy-peer-deps
 ```
+
+3. Install TailwindCss Typography
+
+```bash
+npm install -D @tailwindcss/typography --legacy-peer-deps
+```
