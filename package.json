@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.1.15",
+    "@radix-ui/react-slot": "^1.2.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "eslint-config-prettier": "^10.1.5",
@@ -43,6 +44,12 @@
   "overrides": {
     "react": "$react",
     "react-dom": "$react-dom",
-    "eslint": "$eslint"
+    "eslint": "$eslint",
+    "eslint-plugin-n": "$eslint-plugin-n",
+    "eslint-config-standard": "$eslint-config-standard",
+    "eslint-plugin-import": "$eslint-plugin-import",
+    "eslint-plugin-promise": "$eslint-plugin-promise",
+    "eslint-plugin-tailwindcss": "$eslint-plugin-tailwindcss",
+    "tailwindcss": "$tailwindcss"
   }
 }
